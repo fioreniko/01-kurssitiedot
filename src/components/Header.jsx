@@ -1,12 +1,13 @@
 /*
-https://fullstackopen.com/osa1/reactin_alkeet#tehtavat-1-1-1-2
-tehtävät 1.2
+https://fullstackopen.com/osa1/java_scriptia#tehtavat-1-3-1-5
+tehtävät 1.3
 */
 
 const Header = (props) => {
+  console.log(props);
   return (
     <>
-      <h1>{props.course}</h1>
+      <h1>{props.title}</h1>
     </>
   );
 };

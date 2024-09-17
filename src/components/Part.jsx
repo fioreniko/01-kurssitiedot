@@ -1,13 +1,13 @@
 /*
-https://fullstackopen.com/osa1/reactin_alkeet#tehtavat-1-1-1-2
-tehtävä 1.2
+https://fullstackopen.com/osa1/java_scriptia#tehtavat-1-3-1-5
+tehtävät 1.3
 */
 
 const Part = (props) => {
   return (
     <>
       <p>
-        {props.part} {props.exercises}
+        {props.pippo.name} {props.pippo.exercises}
       </p>
     </>
   );
