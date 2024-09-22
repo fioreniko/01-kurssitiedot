@@ -1,30 +1,32 @@
 /*
 https://fullstackopen.com/osa1/java_scriptia#tehtavat-1-3-1-5
-tehtävät 1.3
+tehtävät 1.4
 */
 import Header from "./components/Header";
 import Content from "./components/Content";
 import Total from "./components/Total";
 const App = () => {
   const course = "Half Stack application development";
-  const part1 = {
-    name: "Fundamentals of React",
-    exercises: 10,
-  };
-  const part2 = {
-    name: "Using props to pass data",
-    exercises: 7,
-  };
-  const part3 = {
-    name: "State of a component",
-    exercises: 14,
-  };
+  const parts = [
+    {
+      name: "Fundamentals of React",
+      exercises: 10,
+    },
+    {
+      name: "Using props to pass data",
+      exercises: 7,
+    },
+    {
+      name: "State of a component",
+      exercises: 14,
+    },
+  ];
 
   return (
     <div>
       <Header title={course} />
-      <Content osa1={part1} osa2={part2} osa3={part3} />
-      <Total exercises1={part1.exercises} exercises2={part2.exercises} exercises3={part3.exercises} />
+      <Content osat={parts} />
+      <Total osat={parts} />
     </div>
   );
 };

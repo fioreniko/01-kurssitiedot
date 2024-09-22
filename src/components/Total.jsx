@@ -1,6 +1,6 @@
 /*
 https://fullstackopen.com/osa1/java_scriptia#tehtavat-1-3-1-5
-tehtävät 1.3
+tehtävät 1.4
 */
 
 const Total = (props) => {
@@ -8,7 +8,7 @@ const Total = (props) => {
     <>
       <p>
         Number of exercises&nbsp;
-        {props.exercises1 + props.exercises2 + props.exercises3}
+        {props.osat[0].exercises + props.osat[1].exercises + props.osat[2].exercises}
       </p>
     </>
   );
