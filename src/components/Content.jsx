@@ -1,6 +1,6 @@
 /*
 https://fullstackopen.com/osa1/java_scriptia#tehtavat-1-3-1-5
-tehtävät 1.4
+tehtävät 1.5
 */
 
 import Part from "./Part";
